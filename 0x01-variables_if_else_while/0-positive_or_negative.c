@@ -9,7 +9,8 @@
 int main(void)
 {
 	srand(time(NULL));
-	int n = rand() % 100;
+	int n;
+	n = rand() % 100\n;
 	if (n < 0)
 	{
 		printf(" %d : is negative", n);
