@@ -2,12 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- * main - last digit
- *
- * return: 0 is always a succuss.
- */
-
+/*last digit*/
 int main(void)
 {
 int n;
