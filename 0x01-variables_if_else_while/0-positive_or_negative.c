@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - Entry point
+ *main - number identifier
  *
- *Return : always (0) success
+ *Return :(0) means end of execution
  */
 int main(void)
 {
