@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*lower and upper case*/
+/**
+ * main - Entry point of the program
+ *
+ * Return: 0 on successful execution
+ */
 int main(void)
 {
 char letter;

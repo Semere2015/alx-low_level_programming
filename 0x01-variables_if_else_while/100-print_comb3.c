@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*printing numbers with two digit*/
+/**
+ * main - Entry point of the program
+ *
+ * Return: 0 on successful execution
+ */
 int main(void)
 {
 int i;
