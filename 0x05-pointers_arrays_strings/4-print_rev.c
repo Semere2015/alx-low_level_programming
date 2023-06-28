@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * print_rev - print reversed sentence
+ * @s: parameter
+ */
+void print_rev(char *s)
+{
+size_t length = (strlen(s));
+for (int i = length - 1; i >= 0 ; i--)
+{
+printf("%c", s[i]);
+}
+printf("\n");
+}
