@@ -8,10 +8,9 @@
  */
 void print_rev(char *s)
 {
-size_t length = (strlen(s));
-for (int i = length - 1; i >= 0 ; i--)
+if (*s)
 {
-printf("%c", s[i]);
+print_rev(s + 1);
+printf("%c", *s);
 }
-printf("\n");
 }
