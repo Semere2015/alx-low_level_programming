@@ -2,7 +2,6 @@
 
 /**
  * main - prints the number from 1 to 100
- *@i: parameter
  * Return: 0 succussful
  */
 int main(void)
@@ -27,5 +26,6 @@ else
 printf("%d ", i);
 }
 }
+printf("\n");
 return (0);
 }

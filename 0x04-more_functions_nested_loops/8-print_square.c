@@ -1,23 +1,25 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_square - print squares using #
- *@size: size of square
+ * print_square - Print square line dependent on the integer n.
+ * @n : parameter
  */
-void print_square(int size)
+void print_square(int n)
 {
-int i = 0;
-int j;
-while (i < size)
-{
-int j = 0;
-while (j < size)
-{
+int x;
+int y;
+
+for (y = 0; y < n; y++)
+	{
+for (x = 0; x < n; x++)
+		{
 _putchar('#');
-j++;
 }
 _putchar('\n');
-i++;
 }
+if (n <= 0)
+{
 _putchar('\n');
+}
 }
